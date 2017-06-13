@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD0BC5321EEFD760005434E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0BC5311EEFD760005434E4 /* AppDelegate.swift */; };
+		FD0BC5341EEFD760005434E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0BC5331EEFD760005434E4 /* ViewController.swift */; };
+		FD0BC5371EEFD760005434E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0BC5351EEFD760005434E4 /* Main.storyboard */; };
+		FD0BC5391EEFD760005434E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0BC5381EEFD760005434E4 /* Assets.xcassets */; };
+		FD0BC53C1EEFD760005434E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0BC53A1EEFD760005434E4 /* LaunchScreen.storyboard */; };
+		FD0BC5441EEFDA5C005434E4 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD0BC5431EEFDA5C005434E4 /* bg.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD0BC52E1EEFD760005434E4 /* EasyAuthen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAuthen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0BC5311EEFD760005434E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD0BC5331EEFD760005434E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD0BC5361EEFD760005434E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD0BC5381EEFD760005434E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD0BC53B1EEFD760005434E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD0BC53D1EEFD760005434E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0BC5431EEFDA5C005434E4 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../../Desktop/bg.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD0BC52B1EEFD760005434E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD0BC5251EEFD760005434E4 = {
+			isa = PBXGroup;
+			children = (
+				FD0BC5301EEFD760005434E4 /* EasyAuthen */,
+				FD0BC52F1EEFD760005434E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD0BC52F1EEFD760005434E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD0BC52E1EEFD760005434E4 /* EasyAuthen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0BC5301EEFD760005434E4 /* EasyAuthen */ = {
+			isa = PBXGroup;
+			children = (
+				FD0BC5311EEFD760005434E4 /* AppDelegate.swift */,
+				FD0BC5431EEFDA5C005434E4 /* bg.jpg */,
+				FD0BC5331EEFD760005434E4 /* ViewController.swift */,
+				FD0BC5351EEFD760005434E4 /* Main.storyboard */,
+				FD0BC5381EEFD760005434E4 /* Assets.xcassets */,
+				FD0BC53A1EEFD760005434E4 /* LaunchScreen.storyboard */,
+				FD0BC53D1EEFD760005434E4 /* Info.plist */,
+			);
+			path = EasyAuthen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD0BC52D1EEFD760005434E4 /* EasyAuthen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0BC5401EEFD760005434E4 /* Build configuration list for PBXNativeTarget "EasyAuthen" */;
+			buildPhases = (
+				FD0BC52A1EEFD760005434E4 /* Sources */,
+				FD0BC52B1EEFD760005434E4 /* Frameworks */,
+				FD0BC52C1EEFD760005434E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyAuthen;
+			productName = EasyAuthen;
+			productReference = FD0BC52E1EEFD760005434E4 /* EasyAuthen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD0BC5261EEFD760005434E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Student10;
+				TargetAttributes = {
+					FD0BC52D1EEFD760005434E4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FD0BC5291EEFD760005434E4 /* Build configuration list for PBXProject "EasyAuthen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD0BC5251EEFD760005434E4;
+			productRefGroup = FD0BC52F1EEFD760005434E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD0BC52D1EEFD760005434E4 /* EasyAuthen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD0BC52C1EEFD760005434E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0BC53C1EEFD760005434E4 /* LaunchScreen.storyboard in Resources */,
+				FD0BC5391EEFD760005434E4 /* Assets.xcassets in Resources */,
+				FD0BC5441EEFDA5C005434E4 /* bg.jpg in Resources */,
+				FD0BC5371EEFD760005434E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD0BC52A1EEFD760005434E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0BC5341EEFD760005434E4 /* ViewController.swift in Sources */,
+				FD0BC5321EEFD760005434E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD0BC5351EEFD760005434E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0BC5361EEFD760005434E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD0BC53A1EEFD760005434E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0BC53B1EEFD760005434E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD0BC53E1EEFD760005434E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD0BC53F1EEFD760005434E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD0BC5411EEFD760005434E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyAuthen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Computer.Sutisa.EasyAuthen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD0BC5421EEFD760005434E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EasyAuthen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Computer.Sutisa.EasyAuthen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD0BC5291EEFD760005434E4 /* Build configuration list for PBXProject "EasyAuthen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0BC53E1EEFD760005434E4 /* Debug */,
+				FD0BC53F1EEFD760005434E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0BC5401EEFD760005434E4 /* Build configuration list for PBXNativeTarget "EasyAuthen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0BC5411EEFD760005434E4 /* Debug */,
+				FD0BC5421EEFD760005434E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD0BC5261EEFD760005434E4 /* Project object */;
+}
