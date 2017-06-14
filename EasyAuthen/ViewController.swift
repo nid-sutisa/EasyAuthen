@@ -9,6 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var userTextField: UIImageView!
+    
+    
+    @IBOutlet weak var passwordTextField: UIImageView!
+    
+    
+    
+    
+    
+    
+    
+    @IBAction func loginButtom(_ sender: Any) {
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
