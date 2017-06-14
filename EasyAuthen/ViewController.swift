@@ -33,6 +33,8 @@ class ViewController: UIViewController {
     
     @IBAction func loginButtom2(_ sender: Any) {
         
+//        messageLabel.text = "  "
+        
         //get value form Textfield
         strUser = usernameTextField.text
         strPassword = passwordTextField.text
@@ -49,18 +51,19 @@ class ViewController: UIViewController {
         print("intPass ==> \(intPass!)")
         
         //call checkSpace
-        if checkSpace(myString: strUser!) {
-            print("user OK")
+        if checkSpace(myString: strUser!) && checkSpace(myString: strPassword!) {
+            print("No Space")
+            showMessage(strMessage: " ")
         } else {
         
-        print("blank user")
-        
+        print("have space")
+        showMessage(strMessage: "please fill user")
+            
         }
         
         
         
-        
-    } //buttom
+    } //login buttom
     
     
     override func viewDidLoad() {
@@ -70,6 +73,12 @@ class ViewController: UIViewController {
         
         
     }//main method
+    
+    func showMessage(strMessage: String) -> Void {
+        messageLabel.text = strMessage
+       
+    }
+    
 
     func checkSpace (myString: String) -> Bool {
 
