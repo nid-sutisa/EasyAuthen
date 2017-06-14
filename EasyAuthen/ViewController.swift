@@ -62,6 +62,7 @@ class ViewController: UIViewController {
         
         print("have space")
  //       showMessage(strMessage: "please fill user")
+            showMessage(strMessage: "  ")
           showMessage(strMessage: "please fill again2")
         }
         
@@ -82,6 +83,19 @@ class ViewController: UIViewController {
         // check user
         if let testUser = dicUser[strUser] {
             print("test user ==> \(testUser)")
+            if strPassword == testUser {
+                //password true
+                showMessage(strMessage: "  ")
+                showMessage(strMessage: "welcome to SNRU")
+            } else {
+                //passWord false
+                showMessage(strMessage: "  ")
+                showMessage(strMessage: "please try again")
+            
+            }
+            
+            
+            
         } else {
             print("test user nil")
             showMessage(strMessage: "No" + strUser + "in my database")
