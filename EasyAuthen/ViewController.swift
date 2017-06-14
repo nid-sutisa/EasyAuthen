@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     //Implicit
     var strUser: String?
     var strPassword: String?
+    let dicUser = ["master":"1234","doramon":"5678","sutisa":"1234" ]
     
     
     
@@ -54,11 +55,14 @@ class ViewController: UIViewController {
         if checkSpace(myString: strUser!) && checkSpace(myString: strPassword!) {
             print("No Space")
             showMessage(strMessage: " ")
+           checkUserAndPass(strUser: strUser!, strPassword: strPassword!)
+            
+            
         } else {
         
         print("have space")
-        showMessage(strMessage: "please fill user")
-            
+ //       showMessage(strMessage: "please fill user")
+          showMessage(strMessage: "please fill again2")
         }
         
         
@@ -73,6 +77,16 @@ class ViewController: UIViewController {
         
         
     }//main method
+    
+    func checkUserAndPass(strUser: String, strPassword: String) -> Void {
+        // check user
+        if let testUser = dicUser[strUser] {
+            print("test user ==> \(testUser)")
+        } else {
+            print("test user nil")
+            showMessage(strMessage: "No" + strUser + "in my database")
+        }
+    }
     
     func showMessage(strMessage: String) -> Void {
         messageLabel.text = strMessage
@@ -100,6 +114,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }// didRecieve
 
+
+    
 
 } //mainclass
 
