@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     
     
+    @IBOutlet weak var messageLabel: UILabel!
     
     
     

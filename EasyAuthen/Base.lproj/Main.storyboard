@@ -49,27 +49,22 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynM-o4-IoL">
-                                <rect key="frame" x="182" y="312" width="155" height="112"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynM-o4-IoL">
+                                <rect key="frame" x="137" y="312" width="155" height="112"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="37"/>
                                 <color key="textColor" red="1" green="0.34283669230000002" blue="0.20602103420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ai6-t9-YU6">
-                                <rect key="frame" x="-22" y="-32" width="459" height="768"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="hcZ-ka-ZDI" secondAttribute="trailing" constant="59" id="015-eb-qCg"/>
                             <constraint firstItem="HbQ-sz-coK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="109" id="1nt-Ih-TXN"/>
                             <constraint firstItem="hU9-WC-OMo" firstAttribute="top" secondItem="2ZD-ZP-ixG" secondAttribute="bottom" constant="32" id="4Da-OE-dof"/>
-                            <constraint firstAttribute="trailing" secondItem="ai6-t9-YU6" secondAttribute="trailing" id="8N9-3O-azB"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="HbQ-sz-coK" secondAttribute="bottom" constant="453" id="ANo-7i-Z56"/>
                             <constraint firstItem="2ZD-ZP-ixG" firstAttribute="top" secondItem="hcZ-ka-ZDI" secondAttribute="bottom" constant="18" id="CJw-U6-d7n"/>
                             <constraint firstItem="ynM-o4-IoL" firstAttribute="top" secondItem="HbQ-sz-coK" secondAttribute="bottom" constant="29" id="JBh-AG-c9Z"/>
-                            <constraint firstAttribute="bottom" secondItem="ai6-t9-YU6" secondAttribute="bottom" id="Jbz-af-1c7"/>
                             <constraint firstItem="hU9-WC-OMo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="88" id="Jlb-vh-7zs"/>
                             <constraint firstItem="hcZ-ka-ZDI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="60" id="L2S-UE-XK4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hU9-WC-OMo" secondAttribute="trailing" constant="73" id="Li2-Jf-yGb"/>
@@ -83,15 +78,11 @@
                             <constraint firstItem="HbQ-sz-coK" firstAttribute="top" secondItem="hU9-WC-OMo" secondAttribute="bottom" constant="58" id="cDe-1k-mUS"/>
                             <constraint firstItem="HbQ-sz-coK" firstAttribute="top" secondItem="hU9-WC-OMo" secondAttribute="bottom" constant="58" id="dL0-C1-lMz"/>
                             <constraint firstItem="hcZ-ka-ZDI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="e2c-Fa-kKm"/>
-                            <constraint firstItem="ai6-t9-YU6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hbZ-PH-2Cu"/>
-                            <constraint firstItem="ai6-t9-YU6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="o2s-zg-XQS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="HbQ-sz-coK" secondAttribute="trailing" constant="94" id="u7w-71-LVN"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="messageLabel" destination="ai6-t9-YU6" id="P4Z-HZ-eYE"/>
-                        <outlet property="passwordTextField" destination="ai6-t9-YU6" id="kPv-c5-0hZ"/>
-                        <outlet property="userTextField" destination="ai6-t9-YU6" id="8R5-HZ-mQU"/>
+                        <outlet property="messageLabel" destination="ynM-o4-IoL" id="Q9q-AK-5xU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -99,7 +90,4 @@
             <point key="canvasLocation" x="136.23188405797103" y="138.58695652173915"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="bg.jpg" width="1698" height="2534"/>
-    </resources>
 </document>
